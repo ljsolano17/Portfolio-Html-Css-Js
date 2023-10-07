@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="mediaqueries.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
 </head>
+
 <body>
     <nav id="desktop-nav">
         <div class="logo"> Luis José</div>
@@ -23,9 +26,9 @@
         <div class="logo"> Luis José</div>
         <div class="hamburger-menu">
             <div class="hamburger-icon" onclick="toggleMenu()">
-            <span></span>
-            <span></span>
-            <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
             <div class="menu-links">
                 <li><a href="#about" onclick="toggleMenu()">About</a></li>
@@ -37,7 +40,9 @@
     </nav>
     <section id="profile">
         <div class="section_pic-container">
-            <img src="./assets/profile-pic.png" alt="Luis Solano Profile Pic">
+            <img 
+            src="./assets/profile-pic.png" 
+            alt="Luis Solano Profile Pic">
         </div>
         <div class="section_text">
             <p class="section_text_p1">Hello, I'm</p>
@@ -48,26 +53,77 @@
                 onclick="window.open('./assets/resume.pdf')">
                     Download CV
                 </button>
-                <button class="btn btn-color-1" 
-                onclick="location.href='./#contact'">
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
                     Contact Info
                 </button>
             </div>
             <div id="socials-container">
-                <img src="./assets/linkedin.png" 
-                alt="My LinkedIn profile"
-                class="icon" 
-                onclick="location.href='https://www.linkedin.com/in/luis-josé-solano-soto-2bb599240'">
-                
-                <img src="./assets/github.png" 
-                alt="My Github profile"
-                class="icon" 
-                onclick="location.href='https://github.com/ljsolano17'">
+                <img 
+                src="./assets/linkedin.png" 
+                alt="My LinkedIn profile" 
+                class="icon"
+                onclick="location.href='https://www.linkedin.com/in/luis-josé-solano-soto-2bb599240'"
+                />
+
+                <img 
+                src="./assets/github.png" 
+                alt="My Github profile" 
+                class="icon"
+                onclick="location.href='https://github.com/ljsolano17'"
+                />
             </div>
         </div>
     </section>
-    Quede en 1:01:00
+    <section id="about">
+        <p class="section_text_p1">Get to Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section_pic-container">
+                <img src="./assets/profile-pic 2.png" 
+                alt="Profile Picture" 
+                class="about-pic" />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" 
+                        alt="Experience icon" 
+                        class="icon" 
+                        />
+                        <h3>Experience</h3>
+                        <p>2+ years <br />Frontend Development</p>
+                    </div>
+                    <div class="details-container">
+                        <img 
+                         src="./assets/education.png" 
+                         alt="Education icon" 
+                         class="icon" 
+                        />
+                        <h3>Education</h3>
+                        <h4>Systems Engineer</h4>
+                        <p>Bachelor's Degree <br />Licenciate Degree</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
+                        reprehenderit et laborum, rem, dolore eum quod voluptate
+                        exercitationem nobis, nihil esse debitis maxime facere minus sint
+                        delectus velit in eos quo officiis explicabo deleniti dignissimos.
+                        Eligendi illum libero dolorum cum laboriosam corrupti quidem,
+                        reiciendis ea magnam? Nulla, impedit fuga!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
     <script src="script.js"></script>
-    
+
 </body>
+
 </html>
