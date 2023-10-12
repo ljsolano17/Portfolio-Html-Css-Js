@@ -336,7 +336,7 @@ section {
     justify-content: center;
     flex-direction: column;
 }
-
+r
 .article-container {
     display: flex;
     text-align: initial;
@@ -371,8 +371,8 @@ article .icon {
 
 .project-img {
     border-radius: 2rem;
-    width: 90%;
-    height: 90%;
+    width: 25rem;
+    height: 35rem;
 }
 
 .project-title {
